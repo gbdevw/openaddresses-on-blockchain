@@ -30,6 +30,29 @@ Two personnas are defined for the application :
 - [Update an address](./documentation/upd_address.md)
 - [Search addresses](./documentation/search_address.md)
 
+### Data model
+
+Address data model :
+
+```
+struct StreetAddress { 
+    bytes32 addressId;
+    string streetName;
+    string postcode;
+    string houseNumber;
+    string boxNumber;
+    string latitude;
+    string longitude;
+}
+```
+
+### Data structures
+
+Three data structures are managed by the contract :
+- A map which uses the address ID as key and the address as value
+- A map which uses the postcode as key and a list of all ids of addresses related to that postcode as value
+- A list of all postcodes which have addresses in the registry
+
 ### Test it
 
 [Remix](https://remix.ethereum.org/) is a browser based IDE where you can develop and test the smart contract.
