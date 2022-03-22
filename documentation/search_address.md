@@ -1,1 +1,1 @@
-![](./images/poc_blockchain_addresses-UC-REQ-GetAddress.jpg)
+![](./images/poc_blockchain_addresses-UC-REQ-GetAddresses.jpg)
