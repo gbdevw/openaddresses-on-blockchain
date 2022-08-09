@@ -53,24 +53,27 @@ Three data structures are managed by the contract :
 - A map which uses the postcode as key and a list of all ids of addresses related to that postcode as value
 - A list of all postcodes which have addresses in the registry
 
-### Test it
+### Lab1: Explore and play with smart contract using Remix
 
-[Remix](https://remix.ethereum.org/) is a browser based IDE where you can develop and test the smart contract.
+#### Lab requirements
 
-1. Create the file for the smart contract and copy paste the code from addresses.sol
+- Internet connection
+- Web browser
 
-![image](https://user-images.githubusercontent.com/50517783/159490577-39546d32-2538-4808-9006-f3cfe6c4d522.png)
+#### Instructions
 
-2. Save & compile the smart contract
+See [Lab1.md](Lab1.md)
 
-![image](https://user-images.githubusercontent.com/50517783/159490714-f8604caf-4e0f-4a50-9b74-59a5635c163f.png)
+### Lab2: Openaddresses on blockchain
 
-3. Deploy the smart contract
+#### Lab requirements
 
-![image](https://user-images.githubusercontent.com/50517783/159490913-f955aa2c-9e85-419b-a5b4-cea25195be35.png)
+- Internet connection
+- Web browser
+- Docker CLI
 
-4. Play !
+The lab has been tested with a virtual machine with 2vCPU, 8GB of RAM and 30GB of disk space
 
-![image](https://user-images.githubusercontent.com/50517783/159491477-512a0bee-1836-4d50-81eb-c8cbf2d9c14f.png)
+#### Instructions
 
-You can add addresses, update and remove them. You can use different wallets to test permissions. Browse 
+See [Lab2.md](Lab2.md)
